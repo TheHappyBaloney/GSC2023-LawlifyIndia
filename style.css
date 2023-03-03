@@ -652,7 +652,8 @@ a:focus {
 
 .service .service-item {
     position: relative;
-    width: 100%;
+    width: 300px;
+    height: 625px;
     text-align: center;
     background: #121518;
     margin-bottom: 30px;
