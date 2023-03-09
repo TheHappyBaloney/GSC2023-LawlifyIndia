@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale = 1">
+    <title>Constitutional Laws</title>
+    <link href="Images/100 x 100.png" rel="icon">
+    <style>
+    body{
+    background: #2d2d2e;
+    }
+
+/* THE MAINCONTAINER HOLDS EVERYTHING */
+.maincontainer1{
+  position: absolute;
+  width: 250px;
+  height: 450px;
+  background: none;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+
+}
+.maincontainer2{
+  position: absolute;
+  width: 250px;
+  height: 450px;
+  background: none;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+
+}
+.maincontainer3{
+  position: absolute;
+  width: 250px;
+  height: 450px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.maincontainer4{
+  position: absolute;
+  width: 250px;
+  height: 450px;
+  background: none;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+
+}
+.maincontainer5{
+  position: absolute;
+  width: 250px;
+  height: 450px;
+  background: none;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* THE CARD HOLDS THE FRONT AND BACK FACES */
+.thecard{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+/* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+ .thefront{
+  position: absolute;
+  top: 0;
+  left: 10;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #ffc728;
+  color: #000;
+}
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+.theback{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #fafafa;
+  color: #333;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+
+/*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
+.thefront h1, .theback h1{
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.thefront p, .theback p{
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+}
+/*This block (ends here) is merely styling for the flip card, and is NOT an essential part of the flip code */
+    </style>
+  </head>
+
+  <body>
+    <div class="maincontainer1">
+
+      <div class="thecard">
+
+        <div class="thefront"><h1>Copyright Act</h1></div>
+
+        <div class="theback"><h1>1957</h1><p>The Copyright Act, 1957 is one of the oldest existing intellectual property rights act. It has been amended quite a few times to align with global trade and commerce. The act relates to person creativity to, it protects the right of literary, artistic, musical works and sound recordings and cinematograph films.</p>
+
+      </div>
+    </div>
+    </div>
+
+
+    <div class="maincontainer2">
+
+      <div class="thecard">
+
+        <div class="thefront"><h1>Patents Act</h1></div>
+
+        <div class="theback"><h1>1970</h1><p>India after signing the TRIPS agreement and forming part of the Agreement establishing the World Trade Organization (WTO) for the purpose of reduction of distortions and impairments to international trade and promotion of effective protection of intellectual property rights, became signatory, the Patent act as amended time to time in the year 1995, 1999, 2002 and 2005 to meet its obligations under the TRIPS agreement.</p>
+
+      </div>
+    </div>
+    </div>
+
+    <div class="maincontainer3">
+
+      <div class="thecard">
+
+        <div class="thefront"><h1>Trade Mark Act</h1></div>
+
+        <div class="theback"><h1>1999</h1><p>The law of trademarks is also now modernized under the Trademarks Act of 1999. A trademark is a special symbol for distinguishing the goods offered for sale or put in the market by one dealer from another. In India, the trademarks were protected for more than four decades as per the provisions of the Trade and Merchandise Mark Act, 1958. India joined the World Trade Organisation from its inception.</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="maincontainer4">
+
+      <div class="thecard">
+
+        <div class="thefront"><h1>The Designs Act</h1></div>
+
+        <div class="theback"><h1>2000</h1><p>The Industrial product basically includes two factors, i.e. artistic work and functioning part of the product. Though in Design Act only artistic work is covered and not functioning part of the product, though the artistic work should be unique and not usual. For example, table with for legs and top would not be considered as design, but the table with unique top and unique style of bottom can be registered.</p>
+
+      </div>
+    </div>
+    </div>
+    <div class="maincontainer5">
+
+      <div class="thecard">
+
+        <div class="thefront"><h1>The Geographical Indications of Goods</h1></div>
+
+        <div class="theback"><h1>1999</h1><p>Geographical Indication is new in India and recently introduced result of the event where turmeric, neem and basmati were patented by persons outside India. To avoid letting outside misuse the Indian Geographical indications and indicating the goods are not basically indicated from Indian locality.</p>
+
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
