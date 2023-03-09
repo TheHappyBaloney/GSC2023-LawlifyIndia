@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale = 1">
+    <title>Civil Laws</title>
+    <link href="Images/100 x 100.png" rel="icon">
+    <style>
+    body{
+    background: #2d2d2e;
+    }
+
+/* THE MAINCONTAINER HOLDS EVERYTHING */
+.maincontainer1{
+  position: absolute;
+  width: 250px;
+  height: 450px;
+  background: none;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+
+}
+.maincontainer2{
+  position: absolute;
+  width: 250px;
+  height: 450px;
+  background: none;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+
+}
+.maincontainer3{
+  position: absolute;
+  width: 250px;
+  height: 450px;
+  background: none;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+
+}
+.maincontainer4{
+  position: absolute;
+  width: 250px;
+  height: 450px;
+  background: none;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* THE CARD HOLDS THE FRONT AND BACK FACES */
+.thecard{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+/* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+ .thefront{
+  position: absolute;
+  top: 0;
+  left: 10;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #ffc728;
+  color: #000;
+}
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+.theback{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #fafafa;
+  color: #333;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+
+/*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
+.thefront h1, .theback h1{
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.thefront p, .theback p{
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+}
+/*This block (ends here) is merely styling for the flip card, and is NOT an essential part of the flip code */
+    </style>
+  </head>
+
+  <body>
+    <div class="maincontainer1">
+
+      <div class="thecard">
+
+        <div class="thefront"><h1> Indian Contracts Act</h1></div>
+
+        <div class="theback"><h1>1872</h1><p>The Indian Contract Act, 1872 enumerates various types of contracts like contracts of bailment, indemnity, agency, etc. It also specifies when a contract is valid, void, or voidable. </p>
+
+      </div>
+    </div>
+    </div>
+
+
+    <div class="maincontainer2">
+
+      <div class="thecard">
+
+        <div class="thefront"><h1>Transfer of Property Act</h1></div>
+
+        <div class="theback"><h1>1882</h1><p>It governs the rights of citizens over the use or transfer of their own property and restrictions applicable to them regarding others’ property. </p>
+
+      </div>
+    </div>
+    </div>
+
+    <div class="maincontainer3">
+
+      <div class="thecard">
+
+        <div class="thefront"><h1>Civil Tort Law</h1></div>
+
+        <div class="theback"><h1></h1><p>A tort is basically a civil wrong, done by a person or entity to another, which results in his injury or damage to his property. Under civil tort law, the aggrieved party can recover damages from the wrongdoer. Generally, tort law is uncodified. Examples of tort are trespass, negligence, defamation, etc. </p>
+
+      </div>
+    </div>
+    </div>
+    <div class="maincontainer4">
+
+      <div class="thecard">
+
+        <div class="thefront"><h1>Administrative Law</h1></div>
+        <div class="theback"><h1></h1><p>Administrative law is the one which determines the organisation, power and duties of administrative authorities. It pertains to the functioning of the executive branch of the government. It is generally uncodified; however, there are specialised courts or tribunals for administrative law-related matters. </p>
+
+      </div>
+    </div>
+    </div>
+    
+  </body>
+</html>
