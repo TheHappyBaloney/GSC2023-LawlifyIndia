@@ -1,150 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-        <meta charset="utf-8">
-        <title>Lawlify India - Kanoon Ke Haath Yahi Se Shuru Hote Hain!</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Law Firm Website Template" name="keywords">
-        <meta content="Law Firm Website Template" name="description">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lawlify India - Kanoon Ke Haath Yahi Se Shuru Hote Hain!</title>
+<link href="Images/100 x 100.png" rel="icon">
 
-        <!-- Favicon -->
-        <link href="Images/100 x 100.png" rel="icon">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
-        
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    </head>
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
 
-    <body>
-        <div class="wrapper">
-            <!-- Top Bar Start -->
-            <div class="top-bar">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-3">
-							<div class="logo-left">
-                                <a href="index.html">
-                                    <img src="Images/100 x 100.png" alt="Logo">
-                                </a>
-                            </div>
-                            <div class="header-image">
-								<a href="index.html">
-                                	<img src="Images/300.png" alt="logo">
-                            	</a>
-							</div>
-                            <div class="col-lg-9">
-								<div class="top-bar-right">
-									<div class="social a">
-										<a href=""><i class="fab fa-twitter"></i></a>
-										<a href=""><i class="fab fa-facebook-f"></i></a>
-										<a href=""><i class="fab fa-linkedin-in"></i></a>
-										<a href=""><i class="fab fa-instagram"></i></a>
-									</div>
-                        		</div>
-                    		</div>
-                		</div>
-            		</div>
-				</div>
-			</div>	
-            <!-- Top Bar End -->
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
 
-            <!-- Nav Bar Start -->
-            <div class="nav-bar">
-                <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <a href="#" class="navbar-brand">MENU</a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
 
-                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                            <div class="navbar-nav mr-auto">
-                                <a href="index.html" class="nav-item nav-link ">Home</a>
-                                <a href="about.html" class="nav-item nav-link"> Who are we?</a>
-                                <a href="Lawyer_Finder.html" class="nav-item nav-link active">Find your attorney</a>
-                                <a href="Law_Flashcards.html" class="nav-item nav-link">Let's Learn about Laws</a>
-                                <a href="contact.html" class="nav-item nav-link">Reach out to us</a>
-                                <div class="gcse-search"></div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-            <!-- Nav Bar End -->
-            <!-- Footer Start -->
-            <div class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="footer-about">
-                                <h2>About Us</h2>
-                                <p>
-                                    It's an educational website where
-we help people understand laws better.
-It makes laws more accessible to people.
-We strive to establish a solid professional relationship with clients based on honesty, transparency, and confidentiality, maintaining ethical behaviour, demonstrating competence in legal matters, and working in the best interest of the client, handling cases in a timely and cost-effective manner, while also delivering high-quality legal services.
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
 
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-8">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="footer-link">
-                                        <h2>Learn about Laws</h2>
-                                        <a href="">Constitutional Law</a>
-                                        <a href="">Civil Law</a>
-                                        <a href="">Criminal Law</a>
-                                        <a href="">Labour Law</a>
-                                        <a href="">Tax Law</a>
-                                        <a href="">Corporate Law</a>
-                                        <a href="">Environment Law</a>
-                                        <a href="">Intellectual Property Law</a>
-                                        <a href="">Family Law</a>
-                                        <a href="">International Law</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="footer-link">
-                                        <h2>Useful Pages</h2>
-                                        <a href="about.html">Who are we?</a>
-                                        <a href="Lawyer_Finder.html">Find your attorney</a>
-                                        <a href="Law_Flashcards.html">Let's Learn about Laws</a>
-                                        <a href="contact.html">Reach out to us</a>
-                                    </div>
-                                </div>
-                                <div class="footer-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Footer End -->
+#myTable tr.header, #myTable tr:hover {
+  background-color: #fcf9f9;
+}
+</style>
+</head>
+<body>
 
-            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        </div>
+<h2>List of Lawyers</h2>
 
-        <!-- JavaScript Libraries -->
-        <script async src="https://cse.google.com/cse.js?cx=021680655b1964124"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for your city..." title="Type in a name">
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Name of the Lawyer</th>
+    <th style="width:40%;">City</th>
+    <th style="width:40%;">Type</th>
+  </tr>
+  <tr>
+    <td>Manoj Dhar</td>
+    <td>Kolkata</td>
+    <td>Criminal Lawyer</td>
+  </tr>
+  <tr>
+    <td>Ashok Tiwari</td>
+    <td>Lucknow</td>
+    <td>Criminal Lawyer</td>
+  </tr>
+  <tr>
+    <td>Sucharita Das</td>
+    <td>Assam</td>
+    <td>Civil Lawyer</td>
+  </tr>
+  <tr>
+    <td>Parvati Shukla</td>
+    <td>Bhopal</td>
+    <td>Criminal Lawyer</td>
+  </tr>
+  <tr>
+    <td>Narendra Bansal</td>
+    <td>Delhi</td>
+    <td>Civil Lawyer</td>
+  </tr>
+  <tr>
+    <td>Rajkumari Vyas</td>
+    <td>Kolkata</td>
+    <td>Criminal Lawyer</td>
+  </tr>
+  <tr>
+    <td>Jayadeva Bakshi</td>
+    <td>Mumbai</td>
+    <td>Criminal Lawyer</td>
+  </tr>
+  <tr>
+    <td>Ellie D Cruz</td>
+    <td>Goa</td>
+    <td>Civil Lawyer</td>
+  </tr>
+    <tr>
+    <td>Tilottama Bandopadhyay</td>
+    <td>Kolkata</td>
+    <td>Civil Lawyer</td>
+  </tr>
+    <tr>
+    <td>Samarj Divekar</td>
+    <td>Patna</td>
+    <td>Civil Lawyer</td>
+  </tr>
+    <tr>
+    <td>Ananya Munshi</td>
+    <td>Karnataka</td>
+    <td>Criminal Lawyer</td>
+  </tr>
+    <tr>
+    <td>Shruti Mazumder</td>
+    <td>Gujrat</td>
+    <td>Civil Lawyer</td>
+  </tr>
+    <tr>
+    <td>Dev Ahuja</td>
+    <td>Puducherry</td>
+    <td>Criminal Lawyer</td>
+  </tr>
+    <tr>
+    <td>Padmini pandey</td>
+    <td>Bangalore</td>
+    <td>Criminal Lawyer</td>
+  </tr>
+    <tr>
+    <td>Nupur Mallaya</td>
+    <td>Kerala</td>
+    <td>Civil Lawyer</td>
+  </tr>
+    <tr>
+    <td>Erbil Qureshi</td>
+    <td>Jaipur</td>
+    <td>Civil Lawyer</td>
+  </tr>
+    <tr>
+    <td>Zavar Suri</td>
+    <td>Hyderabad</td>
+    <td>Criminal Lawyer</td>
+  </tr>
+    <tr>
+    <td>Darshitha Satavelekar</td>
+    <td>Pune</td>
+    <td>Civil Lawyer</td>
+  </tr>
+    <tr>
+    <td>Ranjan Dalavi</td>
+    <td>Patna</td>
+    <td>Civil Lawyer</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td,td1,td2, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[1];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }      
+  }
+}
+</script>
+<script async src="https://cse.google.com/cse.js?cx=021680655b1964124"></script>
+</body>
 </html>
