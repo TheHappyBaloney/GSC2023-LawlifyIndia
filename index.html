@@ -88,24 +88,47 @@
                 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
                 <link href="search.css" rel="stylesheet" />
                 <div class="s01">
-                <form>
+                <form action="search.php" method="post">
                     <fieldset>
                     <legend>Discover amazing lawyers!</legend>
                     </fieldset>
                     <div class="inner-form">
                     <div class="input-field first-wrap">
-                        <input id="search" type="text" placeholder="What kind of lawyer are you looking for?" />
+                        <input id="specialization" type="text" name="specialization" placeholder="What kind of lawyer are you looking for?" />
                     </div>
                     <div class="input-field second-wrap">
-                        <input id="location" type="text" placeholder="Location" />
+                        <input id="location" type="text" name="location" placeholder="Location" />
                     </div>
                     <div class="input-field third-wrap">
-                        <a href="Lawyer_Finder.html" class="btn-search">Search</a>
+                        <button type="submit" class="btn-search">Search</button>
                     </div>
                     </div>
                 </form>
                 </div>
-
+                <script>
+                    function myFunction() {
+                      var input, filter, table, tr, td,td1,td2, i, txtValue;
+                      input = document.getElementById("location");
+                      filter = input.value.toUpperCase();
+                      input = document.getElementById("specialization");
+                      filter = input.value.toUpperCase();
+                      table = document.getElementById("myTable");
+                      tr = table.getElementsByTagName("tr");
+                      for (i = 0; i < tr.length; i++) {
+                        td = tr[i].getElementsByTagName("td")[1];
+                        if (td) {
+                          txtValue = td.textContent || td.innerText;
+                          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                          } else {
+                            tr[i].style.display = "none";
+                          }
+                        }      
+                      }
+                    }
+                    </script>
+                    <script async src="https://cse.google.com/cse.js?cx=021680655b1964124"></script>                    
+                </div>
             <!-- Search Box-->
             <!-- About Start -->
             <div class="about">
