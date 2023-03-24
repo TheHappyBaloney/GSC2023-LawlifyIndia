@@ -92,41 +92,12 @@
                     <fieldset>
                     <legend>Discover amazing lawyers!</legend>
                     </fieldset>
-                    <div class="inner-form">
-                    <div class="input-field first-wrap">
-                        <input id="specialization" type="text" name="specialization" placeholder="What kind of lawyer are you looking for?" />
-                    </div>
-                    <div class="input-field second-wrap">
-                        <input id="location" type="text" name="location" placeholder="Location" />
-                    </div>
+                    <div class="inner-form"></div>
                     <div class="input-field third-wrap">
-                        <button type="submit" class="btn-search">Search</button>
-                    </div>
+                        <a href="Lawyer_Finder.html" class="btn-search">Click here to find your attorney!</a>
                     </div>
                 </form>
                 </div>
-                <script>
-                    function myFunction() {
-                      var input, filter, table, tr, td,td1,td2, i, txtValue;
-                      input = document.getElementById("location");
-                      filter = input.value.toUpperCase();
-                      input = document.getElementById("specialization");
-                      filter = input.value.toUpperCase();
-                      table = document.getElementById("myTable");
-                      tr = table.getElementsByTagName("tr");
-                      for (i = 0; i < tr.length; i++) {
-                        td = tr[i].getElementsByTagName("td")[1];
-                        if (td) {
-                          txtValue = td.textContent || td.innerText;
-                          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                            tr[i].style.display = "";
-                          } else {
-                            tr[i].style.display = "none";
-                          }
-                        }      
-                      }
-                    }
-                    </script>
                     <script async src="https://cse.google.com/cse.js?cx=021680655b1964124"></script>                    
                 </div>
             <!-- Search Box-->
