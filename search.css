@@ -474,9 +474,9 @@ html {
   }
   
   .s01 form legend {
-    font-size: 72px;
+    font-size: 300px;
     line-height: 1;
-    color: #000;
+    color: black;
     margin-bottom: 60px;
   }
   
@@ -491,36 +491,20 @@ html {
     -ms-flex-align: center;
         align-items: center;
   }
-  
-  .s01 form .inner-form .input-field {
-    margin-right: 30px;
-    height: 68px;
-  }
-  
-  .s01 form .inner-form .input-field input {
-    height: 100%;
-    background: #fff;
-    border-radius: .5px;
-    border: 0;
-    display: block;
-    width: 100%;
-    padding: 10px 32px;
-    font-size: 20px;
-  }
-  
+
   .s01 form .inner-form .input-field input.placeholder {
     color: #9a9a9a;
-    font-size: 20px;
+    font-size: 50px;
   }
   
   .s01 form .inner-form .input-field input:-moz-placeholder {
     color: #9a9a9a;
-    font-size: 20px;
+    font-size: 50px;
   }
   
   .s01 form .inner-form .input-field input::-webkit-input-placeholder {
     color: #9a9a9a;
-    font-size: 20px;
+    font-size: 50px;
   }
   
   .s01 form .inner-form .input-field input:hover, .s01 form .inner-form .input-field input:focus {
@@ -536,6 +520,7 @@ html {
   .s01 form .inner-form .input-field.second-wrap {
     width: 32.77%;
     min-width: 180px;
+    background-color: #000;
   }
   
   .s01 form .inner-form .input-field.third-wrap {
